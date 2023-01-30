@@ -1,0 +1,224 @@
+2023-01-31 00:58:27,650 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 00:58:29,758 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 00:58:29,879 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 00:58:29,881 [12] INFO SwagLabs_Automation.CorePage - Login with empty details is successful
+2023-01-31 00:58:30,269 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 00:58:33,635 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 00:58:35,200 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 00:58:35,485 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 00:58:35,576 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Password is required actual text: Epic sadface: Password is required
+2023-01-31 00:58:35,577 [12] INFO SwagLabs_Automation.CorePage - Login with empty password is successful
+2023-01-31 00:58:35,913 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 00:58:38,862 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 00:58:40,058 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 00:58:40,224 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 00:58:40,307 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 00:58:40,308 [12] INFO SwagLabs_Automation.CorePage - Login with empty username is successful
+2023-01-31 00:58:40,588 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 00:58:43,155 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 00:58:44,605 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: user-name
+2023-01-31 00:58:44,813 [12] INFO SwagLabs_Automation.CorePage - Writing value: 123 in element: By.Id: password
+2023-01-31 00:58:44,989 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 00:58:45,075 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username and password do not match any user in this service actual text: Epic sadface: Username and password do not match any user in this service
+2023-01-31 00:58:45,077 [12] INFO SwagLabs_Automation.CorePage - Login with invalid details is successful
+2023-01-31 00:58:45,340 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 00:58:47,676 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 00:58:48,964 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 00:58:49,219 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 00:58:49,595 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 00:58:49,668 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 00:58:49,668 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 00:58:50,547 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 00:58:52,989 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 00:58:54,209 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 00:58:54,437 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 00:58:54,798 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 00:58:55,346 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 00:58:55,347 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 00:58:55,349 [12] INFO SwagLabs_Automation.CorePage - Adding all products to cart
+2023-01-31 00:58:55,591 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 00:58:55,697 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-01-31 00:58:55,797 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-01-31 00:58:55,905 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-01-31 00:58:56,021 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-01-31 00:58:56,117 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-01-31 00:58:56,118 [12] INFO SwagLabs_Automation.CorePage - All the products have been added to cart
+2023-01-31 00:58:56,120 [12] INFO SwagLabs_Automation.CorePage - Removing all products from cart
+2023-01-31 00:58:56,171 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-01-31 00:58:56,290 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-01-31 00:58:56,385 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-01-31 00:58:56,497 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-01-31 00:58:56,608 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-01-31 00:58:56,705 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 00:58:56,789 [12] INFO SwagLabs_Automation.CorePage - All the products have been removed from cart
+2023-01-31 00:58:57,338 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:00:46,021 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:00:47,300 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:00:47,392 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:00:47,393 [12] INFO SwagLabs_Automation.CorePage - Login with empty details is successful
+2023-01-31 01:00:47,723 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:00:50,009 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:00:51,050 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:00:51,254 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:00:51,338 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Password is required actual text: Epic sadface: Password is required
+2023-01-31 01:00:51,339 [12] INFO SwagLabs_Automation.CorePage - Login with empty password is successful
+2023-01-31 01:00:51,671 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:00:53,692 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:00:54,907 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:00:55,069 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:00:55,152 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:00:55,153 [12] INFO SwagLabs_Automation.CorePage - Login with empty username is successful
+2023-01-31 01:00:55,415 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:00:57,664 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:01:01,094 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: user-name
+2023-01-31 01:01:01,215 [12] INFO SwagLabs_Automation.CorePage - Writing value: 123 in element: By.Id: password
+2023-01-31 01:01:01,368 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:01:01,430 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username and password do not match any user in this service actual text: Epic sadface: Username and password do not match any user in this service
+2023-01-31 01:01:01,431 [12] INFO SwagLabs_Automation.CorePage - Login with invalid details is successful
+2023-01-31 01:01:01,736 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:01:03,687 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:01:04,925 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:01:05,158 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:01:05,530 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:01:06,010 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 01:01:06,012 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 01:01:06,711 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:01:08,925 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:01:10,314 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:01:10,479 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:01:10,779 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:01:10,898 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 01:01:10,899 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 01:01:10,901 [12] INFO SwagLabs_Automation.CorePage - Adding all products to cart
+2023-01-31 01:01:11,090 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 01:01:11,236 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-01-31 01:01:11,741 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-01-31 01:01:11,859 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-01-31 01:01:11,995 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-01-31 01:01:12,106 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-01-31 01:01:12,107 [12] INFO SwagLabs_Automation.CorePage - All the products have been added to cart
+2023-01-31 01:01:12,108 [12] INFO SwagLabs_Automation.CorePage - Removing all products from cart
+2023-01-31 01:01:12,155 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-01-31 01:01:12,305 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-01-31 01:01:12,412 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-01-31 01:01:12,541 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-01-31 01:01:12,772 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-01-31 01:01:12,926 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 01:01:13,000 [12] INFO SwagLabs_Automation.CorePage - All the products have been removed from cart
+2023-01-31 01:01:13,556 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:12:37,543 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:12:38,515 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:12:38,729 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:12:38,977 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:12:39,236 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 01:12:39,236 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 01:12:39,882 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:12:41,748 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:12:42,555 [8] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: user-name
+2023-01-31 01:12:42,714 [8] INFO SwagLabs_Automation.CorePage - Writing value: 123 in element: By.Id: password
+2023-01-31 01:12:42,826 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:12:42,890 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username and password do not match any user in this service actual text: Epic sadface: Username and password do not match any user in this service
+2023-01-31 01:12:42,890 [8] INFO SwagLabs_Automation.CorePage - Login with invalid details is successful
+2023-01-31 01:12:43,111 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:12:44,991 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:12:45,800 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:12:45,872 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:12:45,872 [8] INFO SwagLabs_Automation.CorePage - Login with empty details is successful
+2023-01-31 01:12:46,146 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:12:47,991 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:12:48,851 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:12:49,008 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:12:49,084 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:12:49,084 [8] INFO SwagLabs_Automation.CorePage - Login with empty username is successful
+2023-01-31 01:12:49,332 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:12:51,344 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:12:52,323 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:12:52,492 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:12:52,570 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Password is required actual text: Epic sadface: Password is required
+2023-01-31 01:12:52,571 [8] INFO SwagLabs_Automation.CorePage - Login with empty password is successful
+2023-01-31 01:12:52,835 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:12:54,747 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:12:55,779 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:12:55,996 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:12:56,230 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:12:56,744 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 01:12:56,744 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 01:12:56,752 [8] INFO SwagLabs_Automation.CorePage - Adding all products to cart
+2023-01-31 01:12:56,879 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 01:12:56,972 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-01-31 01:12:57,100 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-01-31 01:12:57,193 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-01-31 01:12:57,329 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-01-31 01:12:57,434 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-01-31 01:12:57,434 [8] INFO SwagLabs_Automation.CorePage - All the products have been added to cart
+2023-01-31 01:12:57,434 [8] INFO SwagLabs_Automation.CorePage - Removing all products from cart
+2023-01-31 01:12:57,489 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-01-31 01:12:57,584 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-01-31 01:12:57,672 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-01-31 01:12:57,759 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-01-31 01:12:57,863 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-01-31 01:12:57,956 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 01:12:58,013 [8] INFO SwagLabs_Automation.CorePage - All the products have been removed from cart
+2023-01-31 01:12:58,555 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:17:29,755 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:17:30,709 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:17:30,957 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:17:31,294 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:17:31,667 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 01:17:31,672 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 01:17:32,408 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:17:34,290 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:17:35,077 [8] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: user-name
+2023-01-31 01:17:35,242 [8] INFO SwagLabs_Automation.CorePage - Writing value: 123 in element: By.Id: password
+2023-01-31 01:17:35,365 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:17:35,432 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username and password do not match any user in this service actual text: Epic sadface: Username and password do not match any user in this service
+2023-01-31 01:17:35,432 [8] INFO SwagLabs_Automation.CorePage - Login with invalid details is successful
+2023-01-31 01:17:35,741 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:17:37,671 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:17:38,491 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:17:38,578 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:17:38,578 [8] INFO SwagLabs_Automation.CorePage - Login with empty details is successful
+2023-01-31 01:17:38,870 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:17:40,820 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:17:41,674 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:17:41,805 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:17:41,859 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:17:41,867 [8] INFO SwagLabs_Automation.CorePage - Login with empty username is successful
+2023-01-31 01:17:42,155 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:17:44,059 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:17:44,893 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:17:45,041 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:17:45,100 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Password is required actual text: Epic sadface: Password is required
+2023-01-31 01:17:45,100 [8] INFO SwagLabs_Automation.CorePage - Login with empty password is successful
+2023-01-31 01:17:45,360 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:19:19,907 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:19:20,787 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:19:20,982 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:19:21,231 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:19:21,517 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 01:19:21,519 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 01:19:22,246 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:19:24,214 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:19:25,074 [8] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: user-name
+2023-01-31 01:19:25,251 [8] INFO SwagLabs_Automation.CorePage - Writing value: 123 in element: By.Id: password
+2023-01-31 01:19:25,350 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:19:25,399 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username and password do not match any user in this service actual text: Epic sadface: Username and password do not match any user in this service
+2023-01-31 01:19:25,399 [8] INFO SwagLabs_Automation.CorePage - Login with invalid details is successful
+2023-01-31 01:19:25,689 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:19:27,613 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:19:28,360 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:19:28,416 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:19:28,416 [8] INFO SwagLabs_Automation.CorePage - Login with empty details is successful
+2023-01-31 01:19:28,696 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:19:30,646 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:19:31,474 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 01:19:31,615 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:19:31,683 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-01-31 01:19:31,683 [8] INFO SwagLabs_Automation.CorePage - Login with empty username is successful
+2023-01-31 01:19:31,962 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 01:19:33,817 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 01:19:34,719 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 01:19:34,855 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 01:19:34,918 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Password is required actual text: Epic sadface: Password is required
+2023-01-31 01:19:34,918 [8] INFO SwagLabs_Automation.CorePage - Login with empty password is successful
+2023-01-31 01:19:35,214 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully

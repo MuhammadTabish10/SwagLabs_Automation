@@ -1,0 +1,37 @@
+<SwagLabs_Automation>
+	<LoginTestExecution>
+		<LoginWithValidDetailsTC_001>
+			<user>standard_user</user>
+			<pass>secret_sauce</pass>
+			<expectedtext>PRODUCTS</expectedtext>
+		</LoginWithValidDetailsTC_001>
+		<LoginWithInvalidDetailsTC_002>
+			<user>Tabish</user>
+			<pass>123</pass>
+			<expectedtext>Epic sadface: Username and password do not match any user in this service</expectedtext>
+		</LoginWithInvalidDetailsTC_002>
+		<LoginWithEmptyDetailsTC_003>
+			<expectedtext>Epic sadface: Username is required</expectedtext>
+		</LoginWithEmptyDetailsTC_003>
+		<LoginWithEmptyUsernameTC_004>
+			<pass>secret_sauce</pass>
+			<expectedtext>Epic sadface: Username is required</expectedtext>
+		</LoginWithEmptyUsernameTC_004>
+		<LoginWithEmptyPasswordTC_005>
+			<user>standard_user</user>
+			<expectedtext>Epic sadface: Password is required</expectedtext>
+		</LoginWithEmptyPasswordTC_005>
+	</LoginTestExecution>
+
+	<ProductTestExecution>
+	</ProductTestExecution>
+
+	<ProductDetailTestExecution>
+	</ProductDetailTestExecution>
+
+	<CartTestExecution>
+	</CartTestExecution>
+
+	<CheckoutTestExecution>
+	</CheckoutTestExecution>
+</SwagLabs_Automation>

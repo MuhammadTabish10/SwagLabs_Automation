@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4c585584-28e9-4ed6-b362-e492aa7b640b" name="muham@DESKTOP-VLT1FDS 2023-01-31 01:19:22" runUser="DESKTOP-VLT1FDS\muham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-01-31T01:19:22.5047330+05:00" queuing="2023-01-31T01:19:22.5047330+05:00" start="2023-01-31T01:19:16.4733283+05:00" finish="2023-01-31T01:19:35.6556182+05:00" />
+  <TestSettings name="default" id="c1efcc61-9174-4790-bfeb-d93e94baeec4">
+    <Deployment runDeploymentRoot="muham_DESKTOP-VLT1FDS_2023-01-31_01_19_22" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e0088894-61b2-4299-b90c-bd911e423595" testId="818a82c2-bdb5-4dbd-8248-5d78d41ee9f8" testName="LoginWithEmptyUsernameTC_004 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.2155282" startTime="2023-01-31T01:19:28.9848560+05:00" endTime="2023-01-31T01:19:32.2022791+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0088894-61b2-4299-b90c-bd911e423595" />
+    <UnitTestResult executionId="ea4c61b4-dde8-4b4f-954a-b04095369ef0" testId="59606171-0769-4f32-8779-cbc74c9cd853" testName="LoginWithEmptyPasswordTC_005 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.2066337" startTime="2023-01-31T01:19:32.2022791+05:00" endTime="2023-01-31T01:19:35.4056232+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea4c61b4-dde8-4b4f-954a-b04095369ef0" />
+    <UnitTestResult executionId="f686e7fe-8ac9-40fb-b61e-1804832e43ab" testId="d58f6620-879b-4422-989e-aa6515bfb6c5" testName="LoginWithValidDetailsTC_001 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:04.2211284" startTime="2023-01-31T01:19:17.9732277+05:00" endTime="2023-01-31T01:19:22.4266126+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f686e7fe-8ac9-40fb-b61e-1804832e43ab" />
+    <UnitTestResult executionId="c0734c3b-5596-4766-830f-baea88082ce9" testId="b3319fe3-c5ed-4149-b4ff-eb922dc9768e" testName="LoginWithEmptyDetailsTC_003 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.0754725" startTime="2023-01-31T01:19:25.9039176+05:00" endTime="2023-01-31T01:19:28.9848560+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0734c3b-5596-4766-830f-baea88082ce9" />
+    <UnitTestResult executionId="5bf94e60-52b9-4681-b220-9c2e8cccfc50" testId="6a11fc49-083f-41ac-83c2-fb85a49edbd5" testName="LoginWithInvalidDetailsTC_002 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.4015996" startTime="2023-01-31T01:19:22.5047330+05:00" endTime="2023-01-31T01:19:25.9039176+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bf94e60-52b9-4681-b220-9c2e8cccfc50" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LoginWithInvalidDetailsTC_002 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="6a11fc49-083f-41ac-83c2-fb85a49edbd5">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Login" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="5bf94e60-52b9-4681-b220-9c2e8cccfc50" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithInvalidDetailsTC_002" />
+    </UnitTest>
+    <UnitTest name="LoginWithValidDetailsTC_001 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="d58f6620-879b-4422-989e-aa6515bfb6c5">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Login" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="f686e7fe-8ac9-40fb-b61e-1804832e43ab" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithValidDetailsTC_001" />
+    </UnitTest>
+    <UnitTest name="LoginWithEmptyDetailsTC_003 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="b3319fe3-c5ed-4149-b4ff-eb922dc9768e">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Login" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="c0734c3b-5596-4766-830f-baea88082ce9" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithEmptyDetailsTC_003" />
+    </UnitTest>
+    <UnitTest name="LoginWithEmptyPasswordTC_005 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="59606171-0769-4f32-8779-cbc74c9cd853">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Login" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="ea4c61b4-dde8-4b4f-954a-b04095369ef0" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithEmptyPasswordTC_005" />
+    </UnitTest>
+    <UnitTest name="LoginWithEmptyUsernameTC_004 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="818a82c2-bdb5-4dbd-8248-5d78d41ee9f8">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Login" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="e0088894-61b2-4299-b90c-bd911e423595" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithEmptyUsernameTC_004" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="818a82c2-bdb5-4dbd-8248-5d78d41ee9f8" executionId="e0088894-61b2-4299-b90c-bd911e423595" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59606171-0769-4f32-8779-cbc74c9cd853" executionId="ea4c61b4-dde8-4b4f-954a-b04095369ef0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d58f6620-879b-4422-989e-aa6515bfb6c5" executionId="f686e7fe-8ac9-40fb-b61e-1804832e43ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3319fe3-c5ed-4149-b4ff-eb922dc9768e" executionId="c0734c3b-5596-4766-830f-baea88082ce9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a11fc49-083f-41ac-83c2-fb85a49edbd5" executionId="5bf94e60-52b9-4681-b220-9c2e8cccfc50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
