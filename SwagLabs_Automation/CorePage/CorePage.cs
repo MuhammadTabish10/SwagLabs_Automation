@@ -12,11 +12,12 @@ namespace SwagLabs_Automation
 {
     public class CorePage
     {
-        public static IWebDriver driver;
+        public static IWebDriver driver; 
         public const string DataPath = "C:\\Users\\muham\\source\\repos\\SwagLabs_Automation\\SwagLabs_Automation\\Data\\Data.xml";
         public static readonly ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public static IWebDriver SeleniumInit(string browser)
         {
+            // sbshxbshxcs
             try
             {
                 switch (browser)
