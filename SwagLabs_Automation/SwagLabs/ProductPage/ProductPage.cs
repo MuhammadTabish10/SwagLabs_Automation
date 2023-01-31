@@ -22,8 +22,24 @@ namespace SwagLabs_Automation
         By FacebookAssertloc = By.LinkText("Log in");
         By LinkedinBtnloc = By.ClassName("social_linkedin");
         By LinkedinAssertloc = By.LinkText("");
+        By ProductDetailAssertloc = By.ClassName("inventory_details_back_button");
         #endregion
 
+        public void OpenProduct(string TextOnProductDetail)
+        {
+            try
+            {
+                log.Info("Adding a product to cart");
+                Click(ProductNameloc);
+                AssertEqual(ProductDetailAssertloc, TextOnProductDetail);
+            }
+            catch(Exception ex) 
+            {
+                log.Error("An error occurred while adding a product to cart", ex);
+                throw;
+            }
+            
+        }
 
         public void AddAllProductsToCart()
         {
@@ -66,52 +82,89 @@ namespace SwagLabs_Automation
 
         public void AlphabetFilter(string productName, string value)
         {
-            SelectDropDownMenu(SortDropDownloc, value);
-            AssertEqual(ProductNameloc, productName);
+            try
+            {
+                SelectDropDownMenu(SortDropDownloc, value);
+                AssertEqual(ProductNameloc, productName);
+                log.Info("Dropdown Selected");
+            }
+            catch (Exception ex)
+            {
+                log.Error("Error: " + ex.Message);
+                throw;
+            }
         }
 
         public void PriceFilter(string productPrice, string value)
         {
-            SelectDropDownMenu(SortDropDownloc, value);
-            AssertEqual(ProductPriceloc, productPrice);
+            try
+            {
+                SelectDropDownMenu(SortDropDownloc, value);
+                AssertEqual(ProductPriceloc, productPrice);
+                log.Info("Dropdown Selected");
+            }
+            catch (Exception ex)
+            {
+                log.Error("Error: " + ex.Message);
+                throw;
+            }
+
         }
 
         public void SocialMediaButtons(string twitterValue, string facebookValue, string linkedinValue)
         {
-            log.Info("Clicking on Twitter button and asserting its value");
-            ClickAndAssertSocialMediaButtons(TwitterBtnloc, TwitterAssertloc, twitterValue);
+            try
+            {
+                log.Info("Clicking on Twitter button and asserting its value");
+                ClickAndAssertSocialMediaButtons(TwitterBtnloc, TwitterAssertloc, twitterValue);
 
-            log.Info("Clicking on Facebook button and asserting its value");
-            ClickAndAssertSocialMediaButtons(FacebookBtnloc, FacebookAssertloc, facebookValue);
+                log.Info("Clicking on Facebook button and asserting its value");
+                ClickAndAssertSocialMediaButtons(FacebookBtnloc, FacebookAssertloc, facebookValue);
 
-            //log.Info("Clicking on Linkedin button and asserting its value");
-            //ClickAndAssertSocialMediaButtons(LinkedinBtnloc, LinkedinAssertloc, linkedinValue);
+                //log.Info("Clicking on Linkedin button and asserting its value");
+                //ClickAndAssertSocialMediaButtons(LinkedinBtnloc, LinkedinAssertloc, linkedinValue);
+            }
+            catch (Exception ex)
+            {
+                log.Error("Error: " + ex.Message);
+                throw;
+            }
         }
+
         public void ClickAndAssertSocialMediaButtons(By buttonLocator, By assertLocator, string value)
         {
-            string currentWindow = driver.CurrentWindowHandle;
-
-            log.Info("Clicking on the button");
-            Click(buttonLocator);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(11);
-
-            log.Info("Waiting for new window to open");
-            ReadOnlyCollection<string> windowHandles = driver.WindowHandles;
-            foreach (string windowHandle in windowHandles)
+            try
             {
-                if (!windowHandle.Equals(currentWindow))
+                string currentWindow = driver.CurrentWindowHandle;
+
+                log.Info("Clicking on the button");
+                Click(buttonLocator);
+                driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(11);
+
+                log.Info("Waiting for new window to open");
+                ReadOnlyCollection<string> windowHandles = driver.WindowHandles;
+                foreach (string windowHandle in windowHandles)
                 {
-                    driver.SwitchTo().Window(windowHandle);
-                    break;
+                    if (!windowHandle.Equals(currentWindow))
+                    {
+                        driver.SwitchTo().Window(windowHandle);
+                        break;
+                    }
                 }
+
+                log.Info("Asserting the value");
+                AssertEqual(assertLocator, value);
+
+                log.Info("Closing the window and switching back to main window");
+                driver.Close();
+                driver.SwitchTo().Window(currentWindow);
+            }
+            catch (Exception ex)
+            {
+                log.Error("Error: " + ex.Message);
+                throw;
             }
 
-            log.Info("Asserting the value");
-            AssertEqual(assertLocator, value);
-
-            log.Info("Closing the window and switching back to main window");
-            driver.Close();
-            driver.SwitchTo().Window(currentWindow);
         }
     }
 }

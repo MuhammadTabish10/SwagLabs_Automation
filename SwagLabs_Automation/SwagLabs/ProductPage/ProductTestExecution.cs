@@ -25,9 +25,10 @@ namespace SwagLabs_Automation
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", DataPath, "AToZFilterTC_002", DataAccessMethod.Sequential)]
         public void AToZFilterTC_002()
         {
-            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             string productName = TestContext.DataRow["productName"].ToString();
             string value = TestContext.DataRow["value"].ToString();
+
+            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             productPage.AlphabetFilter(productName, value);
         }
 
@@ -37,9 +38,10 @@ namespace SwagLabs_Automation
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", DataPath, "ZToAFilterTC_003", DataAccessMethod.Sequential)]
         public void ZToAFilterTC_003()
         {
-            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             string productName = TestContext.DataRow["productName"].ToString();
             string value = TestContext.DataRow["value"].ToString();
+
+            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             productPage.AlphabetFilter(productName, value);
         }
 
@@ -49,9 +51,10 @@ namespace SwagLabs_Automation
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", DataPath, "LowToHighPriceFilterTC_004", DataAccessMethod.Sequential)]
         public void LowToHighPriceFilterTC_004()
         {
-            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             string productPrice = TestContext.DataRow["productPrice"].ToString();
             string value = TestContext.DataRow["value"].ToString();
+
+            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             productPage.PriceFilter(productPrice, value);
         }
 
@@ -61,9 +64,9 @@ namespace SwagLabs_Automation
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", DataPath, "HighToLowPriceFilterTC_005", DataAccessMethod.Sequential)]
         public void HighToLowPriceFilterTC_005()
         {
-            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             string productPrice = TestContext.DataRow["productPrice"].ToString();
             string value = TestContext.DataRow["value"].ToString();
+            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             productPage.PriceFilter(productPrice, value);
         }
 
@@ -73,13 +76,25 @@ namespace SwagLabs_Automation
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", DataPath, "CheckSocialMediaLinksTC_006", DataAccessMethod.Sequential)]
         public void CheckSocialMediaLinksTC_006()
         {
-            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             #region DataFromXML
             string twitterValue = TestContext.DataRow["twitterValue"].ToString();
             string facebookValue = TestContext.DataRow["facebookValue"].ToString();
             string linkedinValue = TestContext.DataRow["linkedinValue"].ToString();
             #endregion
+            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
             productPage.SocialMediaButtons(twitterValue, facebookValue, linkedinValue);
+        }
+
+        [TestMethod]
+        [TestCategory("Positive"), TestCategory("Product")]
+        [Owner("Tabish")]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", DataPath, "OpenProductTC_007", DataAccessMethod.Sequential)]
+        public void OpenProductTC_007()
+        {
+            string TextOnProductDetail = TestContext.DataRow["TextOnProductDetail"].ToString();
+
+            loginPage.LoginWithValidDetails("standard_user", "secret_sauce", "PRODUCTS");
+            productPage.OpenProduct(TextOnProductDetail);
         }
     }
 }

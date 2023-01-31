@@ -45,14 +45,83 @@
 			<facebookValue>Log in</facebookValue>
 			<linkedinValue></linkedinValue>
 		</CheckSocialMediaLinksTC_006>
+		<OpenProductTC_007>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+		</OpenProductTC_007>
 	</ProductTestExecution>
 
 	<ProductDetailTestExecution>
+		<ClickAndOpenProductDetailTC_001>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<TextOnProductPage>PRODUCTS</TextOnProductPage>
+		</ClickAndOpenProductDetailTC_001>
+		<OpenCartTC_002>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+		</OpenCartTC_002>
 	</ProductDetailTestExecution>
 
 	<CartTestExecution>
+		<RemoveProductAndCheckContinueBtnTC_001>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+			<TextOnProductPage>PRODUCTS</TextOnProductPage>
+		</RemoveProductAndCheckContinueBtnTC_001>
+		<ProceedToCheckoutTC_002>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+			<TextOnCheckoutPage>CHECKOUT: YOUR INFORMATION</TextOnCheckoutPage>
+		</ProceedToCheckoutTC_002>
 	</CartTestExecution>
 
 	<CheckoutTestExecution>
+		<EnterDetailsTC_001>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+			<TextOnCheckoutPage>CHECKOUT: YOUR INFORMATION</TextOnCheckoutPage>
+			<firstName>Tabish</firstName>
+			<lastName>Rashid</lastName>
+			<postalCode>4274628</postalCode>
+			<expectedText>CHECKOUT: OVERVIEW</expectedText>
+		</EnterDetailsTC_001>
+		<EnterEmptyDetailsTC_002>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+			<TextOnCheckoutPage>CHECKOUT: YOUR INFORMATION</TextOnCheckoutPage>
+			<firstName></firstName>
+			<lastName></lastName>
+			<postalCode></postalCode>
+			<expectedText>Error: First Name is required</expectedText>
+		</EnterEmptyDetailsTC_002>
+		<FillWithEmptyFirstNameDetailsTC_003>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+			<TextOnCheckoutPage>CHECKOUT: YOUR INFORMATION</TextOnCheckoutPage>
+			<firstName></firstName>
+			<lastName>Rashid</lastName>
+			<postalCode>4274628</postalCode>
+			<expectedText>Error: First Name is required</expectedText>
+		</FillWithEmptyFirstNameDetailsTC_003>
+		<FillWithEmptyLastNameDetailsTC_004>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+			<TextOnCheckoutPage>CHECKOUT: YOUR INFORMATION</TextOnCheckoutPage>
+			<firstName>Tabish</firstName>
+			<lastName></lastName>
+			<postalCode>4274628</postalCode>
+			<expectedText>Error: Last Name is required</expectedText>
+		</FillWithEmptyLastNameDetailsTC_004>
+		<FillWithEmptyPostalCodeDetailsTC_005>
+			<TextOnProductDetail>BACK TO PRODUCTS</TextOnProductDetail>
+			<value>YOUR CART</value>
+			<TextOnCheckoutPage>CHECKOUT: YOUR INFORMATION</TextOnCheckoutPage>
+			<firstName>Tabish</firstName>
+			<lastName>Rashid</lastName>
+			<postalCode></postalCode>
+			<expectedText>Error: Postal Code is required</expectedText>
+		</FillWithEmptyPostalCodeDetailsTC_005>
 	</CheckoutTestExecution>
 </SwagLabs_Automation>
+
+
+

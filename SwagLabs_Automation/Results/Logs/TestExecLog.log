@@ -1086,3 +1086,1143 @@
 2023-01-31 17:22:03,710 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Log in actual text: Log in
 2023-01-31 17:22:03,712 [12] INFO SwagLabs_Automation.CorePage - Closing the window and switching back to main window
 2023-01-31 17:22:05,091 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 18:49:00,427 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 18:49:03,033 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 18:49:03,250 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 18:49:03,563 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 18:49:03,646 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 18:49:03,647 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 18:49:03,823 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 18:49:04,095 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"BACK TO PRODUCTS"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 18:49:04,709 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 18:50:18,461 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 18:50:20,494 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 18:50:20,769 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 18:50:21,199 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 18:50:21,667 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 18:50:21,670 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 18:50:22,339 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 18:50:22,466 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 18:50:23,086 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:<PRODUCTS>. Actual:<BACK TO PRODUCTS>. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 133
+2023-01-31 18:50:23,677 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 18:51:01,471 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 18:51:03,186 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 18:51:03,671 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 18:51:04,243 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 18:51:05,022 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 18:51:05,023 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 18:51:05,210 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 18:51:05,427 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:<PRODUCTS>. Actual:<BACK TO PRODUCTS>. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 133
+2023-01-31 18:51:06,012 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 18:52:40,480 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 18:52:41,777 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 18:52:42,014 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 18:52:42,860 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 18:52:43,242 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 18:52:43,243 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 18:52:43,533 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 18:52:43,689 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 18:52:43,879 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_details_back_button
+2023-01-31 18:52:44,093 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 18:52:44,813 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 19:01:57,212 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 19:01:59,254 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 19:01:59,438 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 19:01:59,726 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 19:02:00,385 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 19:02:00,387 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 19:02:00,942 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 19:02:01,012 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 19:02:01,191 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_details_back_button
+2023-01-31 19:02:01,256 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 19:02:01,974 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 19:59:10,012 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 19:59:11,718 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 19:59:11,922 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 19:59:12,248 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 19:59:12,353 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 19:59:12,354 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 19:59:12,842 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 19:59:13,023 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 19:59:13,763 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 20:29:38,281 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 20:29:39,836 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 20:29:40,158 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 20:29:40,634 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 20:29:41,599 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 20:29:41,600 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 20:29:41,602 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 20:29:41,870 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 20:29:41,961 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 20:29:42,127 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 20:29:42,184 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 20:29:42,349 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_details_back_button
+2023-01-31 20:29:42,419 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 20:29:43,223 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 20:44:39,600 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 20:44:41,263 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 20:44:41,536 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 20:44:41,915 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 20:44:42,924 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 20:44:42,925 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 20:44:42,927 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 20:44:43,351 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 20:44:43,459 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 20:44:43,679 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 20:44:43,741 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 20:44:43,909 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_details_back_button
+2023-01-31 20:44:43,987 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 20:44:44,773 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 20:44:48,136 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 20:44:49,417 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 20:46:07,941 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 20:46:09,136 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 20:46:09,396 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 20:46:09,726 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 20:46:10,185 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 20:46:10,186 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 20:46:10,188 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 20:46:11,343 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 20:46:11,405 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 20:46:11,546 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 20:46:11,597 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 20:46:11,709 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 20:46:11,755 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 20:46:12,004 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 22:01:59,150 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 22:02:00,842 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 22:02:01,064 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 22:02:01,650 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 22:02:02,148 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:02:02,149 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 22:02:02,151 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 22:02:02,753 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 22:02:02,819 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 22:02:03,063 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 22:02:03,131 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 22:02:03,132 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 22:02:03,445 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 22:02:03,572 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 22:02:03,575 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 22:02:03,868 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 22:02:44,979 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 22:02:50,395 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 22:04:33,221 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 22:04:35,080 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 22:04:35,254 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 22:04:35,519 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 22:04:36,127 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:04:36,129 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 22:04:36,132 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 22:04:36,632 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 22:04:36,801 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 22:04:36,908 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 22:04:36,987 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 22:04:36,988 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 22:04:37,143 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 22:04:37,201 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 22:04:37,202 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 22:04:37,370 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue-shopping
+2023-01-31 22:04:37,437 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:04:38,347 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 22:13:39,547 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 22:13:41,965 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 22:13:42,180 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 22:13:42,939 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 22:13:43,713 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:13:43,714 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 22:13:43,715 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 22:13:43,882 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 22:13:43,993 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 22:13:44,102 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 22:13:44,163 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 22:13:44,165 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 22:13:44,320 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 22:13:44,364 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 22:13:44,365 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 22:13:44,547 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_secondary
+2023-01-31 22:13:44,549 [12] INFO SwagLabs_Automation.CorePage - Product has been Removed.
+2023-01-31 22:13:44,758 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue-shopping
+2023-01-31 22:13:44,912 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:13:45,891 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 22:38:59,133 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 22:39:00,954 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 22:39:01,229 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 22:39:01,648 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 22:39:02,437 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:39:02,439 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 22:39:02,440 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 22:39:02,643 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 22:39:02,780 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 22:39:02,884 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 22:39:02,937 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 22:39:02,938 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 22:39:03,080 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 22:39:03,143 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 22:39:03,143 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 22:39:03,277 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_secondary
+2023-01-31 22:39:03,283 [12] INFO SwagLabs_Automation.CorePage - Product has been Removed.
+2023-01-31 22:39:03,499 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue-shopping
+2023-01-31 22:39:03,581 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:39:04,395 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 22:39:21,632 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 22:39:22,844 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 22:39:23,130 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 22:39:23,559 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 22:39:24,160 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 22:39:24,161 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 22:39:24,163 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 22:39:24,357 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 22:39:24,420 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 22:39:24,530 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 22:39:24,594 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 22:39:24,595 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 22:39:24,719 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 22:39:24,772 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 22:39:24,773 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 22:39:24,918 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 22:39:24,966 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 22:39:25,249 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:49:54,272 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:49:55,971 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:49:56,173 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:49:56,459 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:49:56,551 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:49:56,552 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:49:56,553 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:49:56,706 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:49:56,815 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:49:56,939 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:49:57,021 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:49:57,022 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:49:57,240 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:49:57,318 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:49:57,319 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:49:57,453 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:49:57,528 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:49:57,726 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-01-31 23:49:57,914 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-01-31 23:49:58,131 [12] INFO SwagLabs_Automation.CorePage - Writing value: 726252 in element: By.Id: postal-code
+2023-01-31 23:49:58,303 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:49:58,487 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#continue"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:49:58,777 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:50:01,397 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:50:02,813 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:50:03,022 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:50:03,304 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:50:03,404 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:50:03,405 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:50:03,405 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:50:03,787 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:50:03,902 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:50:03,998 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:50:04,047 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:50:04,047 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:50:04,156 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:50:04,213 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:50:04,214 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:50:04,333 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:50:04,376 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:50:04,507 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:50:04,539 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:50:04,804 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:50:07,315 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:50:08,294 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:50:08,555 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:50:08,871 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:50:09,554 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:50:09,555 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:50:09,556 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:50:09,786 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:50:09,849 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:50:09,975 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:50:10,026 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:50:10,026 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:50:10,138 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:50:10,180 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:50:10,181 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:50:10,275 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:50:10,327 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:50:10,487 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-01-31 23:50:10,649 [12] INFO SwagLabs_Automation.CorePage - Writing value: 726252 in element: By.Id: postal-code
+2023-01-31 23:50:10,757 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:50:10,782 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:50:11,033 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:50:13,616 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:50:14,811 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:50:15,054 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:50:15,440 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:50:15,543 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:50:15,544 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:50:15,545 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:50:15,814 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:50:15,937 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:50:16,068 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:50:16,152 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:50:16,153 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:50:16,320 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:50:16,392 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:50:16,393 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:50:16,539 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:50:16,601 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:50:16,804 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-01-31 23:50:16,995 [12] INFO SwagLabs_Automation.CorePage - Writing value: 726252 in element: By.Id: postal-code
+2023-01-31 23:50:17,126 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:50:17,150 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:50:17,390 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:50:20,123 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:50:21,451 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:50:21,693 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:50:22,023 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:50:22,125 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:50:22,126 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:50:22,127 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:50:22,897 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:50:22,965 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:50:23,072 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:50:23,129 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:50:23,129 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:50:23,258 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:50:23,305 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:50:23,306 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:50:23,434 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:50:23,484 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:50:23,640 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-01-31 23:50:23,833 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-01-31 23:50:23,955 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:50:23,976 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:50:24,211 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:53:23,226 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:53:24,609 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:53:24,811 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:53:25,133 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:53:25,257 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:53:25,258 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:53:25,259 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:53:25,501 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:53:25,555 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:53:25,702 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:53:25,783 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:53:25,784 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:53:26,032 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:53:26,091 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:53:26,093 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:53:26,267 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:53:26,328 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:53:26,535 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: first-name
+2023-01-31 23:53:26,721 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: last-name
+2023-01-31 23:53:26,935 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: postal-code
+2023-01-31 23:53:27,133 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:53:27,263 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#continue"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:53:27,558 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:53:30,583 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:53:31,688 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:53:31,921 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:53:32,294 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:53:32,734 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:53:32,735 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:53:32,736 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:53:33,073 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:53:33,139 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:53:33,262 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:53:33,310 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:53:33,311 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:53:33,417 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:53:33,463 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:53:33,464 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:53:33,571 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:53:33,623 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:53:33,735 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:53:33,762 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:53:33,966 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:53:36,416 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:53:37,720 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:53:37,984 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:53:38,329 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:53:38,624 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:53:38,625 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:53:38,626 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:53:39,105 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:53:39,157 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:53:39,254 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:53:39,313 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:53:39,314 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:53:39,421 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:53:39,470 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:53:39,471 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:53:39,569 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:53:39,616 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:53:39,798 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: last-name
+2023-01-31 23:53:39,987 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: postal-code
+2023-01-31 23:53:40,108 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:53:40,133 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:53:40,338 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:53:42,971 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:53:44,232 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:53:44,539 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:53:44,923 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:53:45,489 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:53:45,490 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:53:45,491 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:53:45,717 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:53:45,764 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:53:45,862 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:53:45,917 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:53:45,918 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:53:46,023 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:53:46,071 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:53:46,072 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:53:46,171 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:53:46,225 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:53:46,407 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: first-name
+2023-01-31 23:53:46,624 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: postal-code
+2023-01-31 23:53:46,740 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:53:46,766 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:53:46,975 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:53:49,327 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:53:50,701 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:53:50,939 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:53:51,208 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:53:51,475 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:53:51,476 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:53:51,477 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:53:52,050 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:53:52,167 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:53:52,245 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:53:52,299 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:53:52,300 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:53:52,423 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:53:52,474 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:53:52,475 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:53:52,574 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:53:52,627 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:53:52,829 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: first-name
+2023-01-31 23:53:53,026 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: last-name
+2023-01-31 23:53:53,144 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:53:53,170 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-01-31 23:53:53,373 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-01-31 23:56:22,742 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-01-31 23:56:23,906 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-01-31 23:56:24,126 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-01-31 23:56:24,407 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-01-31 23:56:25,040 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-01-31 23:56:25,042 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-01-31 23:56:25,044 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-01-31 23:56:25,677 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-01-31 23:56:25,729 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-01-31 23:56:25,857 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-01-31 23:56:25,915 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-01-31 23:56:25,916 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-01-31 23:56:26,031 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-01-31 23:56:26,085 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-01-31 23:56:26,086 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-01-31 23:56:26,206 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-01-31 23:56:26,254 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-01-31 23:56:26,470 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: first-name
+2023-01-31 23:56:26,671 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: last-name
+2023-01-31 23:56:26,885 [12] INFO SwagLabs_Automation.CorePage - Writing value: YOUR CART in element: By.Id: postal-code
+2023-01-31 23:56:27,027 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-01-31 23:56:27,217 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.AreEqual failed. Expected:<YOUR CART>. Actual:<CHECKOUT: OVERVIEW>. 
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 133
+2023-01-31 23:56:27,511 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:00:32,852 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:00:34,617 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:00:34,847 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:00:35,213 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:00:35,642 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:00:35,643 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:00:35,646 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:00:36,237 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:00:36,416 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:00:36,611 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:00:36,685 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:00:36,686 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:00:36,859 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:00:36,906 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:00:36,908 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:00:37,045 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:00:37,114 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:00:37,347 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:00:37,569 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:00:37,771 [12] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:00:37,946 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:00:37,988 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: OVERVIEW actual text: CHECKOUT: OVERVIEW
+2023-02-01 00:00:38,337 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:00:41,284 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:00:42,596 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:00:42,822 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:00:43,094 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:00:43,178 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:00:43,179 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:00:43,181 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:00:43,327 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:00:43,372 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:00:43,465 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:00:43,533 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:00:43,534 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:00:43,649 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:00:43,701 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:00:43,701 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:00:43,818 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:00:43,917 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:00:44,032 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:00:44,236 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-02-01 00:00:44,538 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:00:47,246 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:00:48,299 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:00:48,521 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:00:48,851 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:00:49,188 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:00:49,189 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:00:49,191 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:00:49,668 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:00:49,802 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:00:49,920 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:00:49,991 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:00:49,992 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:00:50,116 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:00:50,178 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:00:50,180 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:00:50,301 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:00:50,364 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:00:50,567 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:00:50,780 [12] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:00:50,903 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:00:50,927 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-02-01 00:00:51,186 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:00:53,934 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:00:55,215 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:00:55,482 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:00:55,786 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:00:56,904 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:00:56,906 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:00:56,907 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:00:57,154 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:00:57,250 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:00:57,342 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:00:57,408 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:00:57,408 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:00:57,576 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:00:57,638 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:00:57,638 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:00:57,758 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:00:57,809 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:00:58,032 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:00:58,238 [12] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:00:58,386 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:00:58,408 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-02-01 00:00:58,703 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:01:01,170 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:01:02,540 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:01:02,773 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:01:03,156 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:01:03,762 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:01:03,765 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:01:03,766 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:01:03,940 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:01:04,057 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:01:04,316 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:01:04,367 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:01:04,368 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:01:04,528 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:01:04,623 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:01:04,624 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:01:04,754 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:01:04,819 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:01:04,994 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:01:05,168 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:01:05,443 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:01:05,515 [12] ERROR SwagLabs_Automation.CorePage - Assertion failed with exception: OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#error\-message\-container"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.AssertEqual(By locator, String expectedtext) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 132
+2023-02-01 00:01:05,809 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:01:44,361 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:01:45,440 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:01:45,697 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:01:46,082 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:01:47,100 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:01:47,101 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:01:47,103 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:01:47,298 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:01:47,452 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:01:47,581 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:01:47,635 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:01:47,636 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:01:47,751 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:01:47,798 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:01:47,799 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:01:47,920 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:01:47,970 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:01:48,146 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:01:48,334 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:01:48,562 [12] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:01:48,731 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:01:48,778 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: OVERVIEW actual text: CHECKOUT: OVERVIEW
+2023-02-01 00:01:49,099 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:01:52,080 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:01:53,159 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:01:53,402 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:01:53,787 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:01:54,148 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:01:54,149 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:01:54,150 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:01:54,564 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:01:54,623 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:01:54,735 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:01:54,784 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:01:54,785 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:01:54,891 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:01:54,958 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:01:54,959 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:01:55,078 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:01:55,119 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:01:55,253 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:01:55,315 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: First Name is required actual text: Error: First Name is required
+2023-02-01 00:01:55,555 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:01:57,942 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:01:59,838 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:02:00,067 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:02:00,335 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:02:00,557 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:02:00,558 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:02:00,559 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:02:00,903 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:02:01,118 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:02:01,220 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:02:01,286 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:02:01,287 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:02:01,413 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:02:01,470 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:02:01,471 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:02:01,598 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:02:01,645 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:02:01,828 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:02:02,030 [12] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:02:02,165 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:02:02,210 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: First Name is required actual text: Error: First Name is required
+2023-02-01 00:02:02,420 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:02:04,992 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:02:06,281 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:02:06,530 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:02:06,819 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:02:07,005 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:02:07,006 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:02:07,007 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:02:07,669 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:02:07,752 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:02:07,862 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:02:07,913 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:02:07,914 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:02:08,034 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:02:08,090 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:02:08,091 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:02:08,189 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:02:08,246 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:02:08,423 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:02:08,620 [12] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:02:08,759 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:02:08,818 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: Last Name is required actual text: Error: Last Name is required
+2023-02-01 00:02:09,068 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:02:11,692 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:02:12,696 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:02:12,911 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:02:13,175 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:02:13,717 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:02:13,720 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:02:13,733 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:02:14,124 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:02:14,240 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:02:14,352 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:02:14,410 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:02:14,411 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:02:14,534 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:02:14,600 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:02:14,601 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:02:14,721 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:02:14,769 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:02:14,966 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:02:15,126 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:02:15,258 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:02:15,312 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: Postal Code is required actual text: Error: Postal Code is required
+2023-02-01 00:02:15,520 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:04:58,856 [12] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:05:00,681 [12] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:05:00,879 [12] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:05:01,382 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:05:01,601 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:05:01,602 [12] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:05:01,605 [12] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:05:01,847 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:05:01,904 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:05:02,107 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:05:02,202 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:05:02,206 [12] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:05:02,397 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:05:02,455 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:05:02,456 [12] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:05:02,596 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:05:02,660 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:05:02,848 [12] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:05:03,048 [12] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:05:03,259 [12] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:05:03,450 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:05:03,517 [12] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: OVERVIEW actual text: CHECKOUT: OVERVIEW
+2023-02-01 00:05:03,647 [12] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: finish
+2023-02-01 00:05:04,060 [12] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:35:42,743 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:35:45,592 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:35:45,854 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:35:46,179 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:35:46,648 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:35:46,649 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:35:46,650 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:35:46,903 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:35:47,043 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:35:47,163 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:35:47,216 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:35:47,217 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:35:47,343 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:35:47,413 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:35:47,414 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:35:47,518 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_secondary
+2023-02-01 00:35:47,520 [8] INFO SwagLabs_Automation.CorePage - Product has been Removed.
+2023-02-01 00:35:47,522 [8] INFO SwagLabs_Automation.CorePage - Clicking on ContinueShopping
+2023-02-01 00:35:47,681 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue-shopping
+2023-02-01 00:35:47,736 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:35:48,553 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:35:52,345 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:35:53,366 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:35:53,584 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:35:53,936 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:35:54,541 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:35:54,542 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:35:54,543 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:35:54,816 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:35:54,862 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:35:54,955 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:35:55,013 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:35:55,014 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:35:55,120 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:35:55,166 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:35:55,167 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:35:55,168 [8] INFO SwagLabs_Automation.CorePage - Clicking on ContinueShopping
+2023-02-01 00:35:55,255 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:35:55,313 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:35:55,543 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:35:57,828 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:35:59,082 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:35:59,370 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:35:59,717 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:00,240 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:00,241 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:00,242 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:36:00,543 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:36:00,611 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:36:00,749 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:36:00,813 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:36:00,814 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:36:00,936 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:36:00,989 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:36:00,990 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:36:00,991 [8] INFO SwagLabs_Automation.CorePage - Clicking on ContinueShopping
+2023-02-01 00:36:01,118 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:36:01,170 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:36:01,316 [8] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:36:01,475 [8] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:36:01,638 [8] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:36:01,777 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:36:01,837 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: OVERVIEW actual text: CHECKOUT: OVERVIEW
+2023-02-01 00:36:01,991 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: finish
+2023-02-01 00:36:01,992 [8] INFO SwagLabs_Automation.CorePage - Submission with valid details successful
+2023-02-01 00:36:02,293 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:04,496 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:05,822 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:06,079 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:06,354 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:06,546 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:06,547 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:06,549 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:36:06,882 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:36:06,964 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:36:07,046 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:36:07,097 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:36:07,097 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:36:07,225 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:36:07,314 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:36:07,315 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:36:07,316 [8] INFO SwagLabs_Automation.CorePage - Clicking on ContinueShopping
+2023-02-01 00:36:07,487 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:36:07,590 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:36:07,745 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:36:07,798 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: First Name is required actual text: Error: First Name is required
+2023-02-01 00:36:07,800 [8] INFO SwagLabs_Automation.CorePage - Submission with empty details successful
+2023-02-01 00:36:08,033 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:09,966 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:11,271 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:11,505 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:11,881 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:11,981 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:11,982 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:11,983 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:36:12,636 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:36:12,683 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:36:12,774 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:36:12,835 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:36:12,836 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:36:12,960 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:36:13,019 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:36:13,019 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:36:13,020 [8] INFO SwagLabs_Automation.CorePage - Clicking on ContinueShopping
+2023-02-01 00:36:13,149 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:36:13,190 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:36:13,333 [8] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:36:13,509 [8] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:36:13,608 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:36:13,655 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: First Name is required actual text: Error: First Name is required
+2023-02-01 00:36:13,656 [8] INFO SwagLabs_Automation.CorePage - Submission with empty firstname successful
+2023-02-01 00:36:13,884 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:16,361 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:17,864 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:18,049 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:18,383 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:18,999 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:19,000 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:19,001 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:36:19,346 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:36:19,404 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:36:19,521 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:36:19,567 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:36:19,568 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:36:19,656 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:36:19,704 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:36:19,705 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:36:19,705 [8] INFO SwagLabs_Automation.CorePage - Clicking on ContinueShopping
+2023-02-01 00:36:19,800 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:36:19,859 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:36:20,029 [8] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:36:20,176 [8] INFO SwagLabs_Automation.CorePage - Writing value: 4274628 in element: By.Id: postal-code
+2023-02-01 00:36:20,302 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:36:20,376 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: Last Name is required actual text: Error: Last Name is required
+2023-02-01 00:36:20,377 [8] INFO SwagLabs_Automation.CorePage - Submission with empty lastname successful
+2023-02-01 00:36:20,588 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:22,693 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:24,007 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:24,256 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:24,592 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:24,703 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:24,704 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:24,705 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:36:24,915 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:36:25,167 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:36:25,301 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:36:25,353 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:36:25,354 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:36:25,463 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:36:25,510 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:36:25,511 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:36:25,512 [8] INFO SwagLabs_Automation.CorePage - Clicking on ContinueShopping
+2023-02-01 00:36:25,636 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: checkout
+2023-02-01 00:36:25,679 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: CHECKOUT: YOUR INFORMATION actual text: CHECKOUT: YOUR INFORMATION
+2023-02-01 00:36:25,845 [8] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: first-name
+2023-02-01 00:36:25,996 [8] INFO SwagLabs_Automation.CorePage - Writing value: Rashid in element: By.Id: last-name
+2023-02-01 00:36:26,109 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: continue
+2023-02-01 00:36:26,163 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Error: Postal Code is required actual text: Error: Postal Code is required
+2023-02-01 00:36:26,164 [8] INFO SwagLabs_Automation.CorePage - Submission with empty postalcode successful
+2023-02-01 00:36:26,368 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:28,928 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:30,010 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:30,337 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:30,688 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:31,008 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:31,009 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:31,813 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:34,016 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:35,063 [8] INFO SwagLabs_Automation.CorePage - Writing value: Tabish in element: By.Id: user-name
+2023-02-01 00:36:35,287 [8] INFO SwagLabs_Automation.CorePage - Writing value: 123 in element: By.Id: password
+2023-02-01 00:36:35,406 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:35,467 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username and password do not match any user in this service actual text: Epic sadface: Username and password do not match any user in this service
+2023-02-01 00:36:35,468 [8] INFO SwagLabs_Automation.CorePage - Login with invalid details is successful
+2023-02-01 00:36:35,735 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:37,951 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:39,022 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:39,110 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-02-01 00:36:39,111 [8] INFO SwagLabs_Automation.CorePage - Login with empty details is successful
+2023-02-01 00:36:39,445 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:42,079 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:43,903 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:44,066 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:44,147 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Username is required actual text: Epic sadface: Username is required
+2023-02-01 00:36:44,148 [8] INFO SwagLabs_Automation.CorePage - Login with empty username is successful
+2023-02-01 00:36:44,378 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:46,633 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:47,856 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:48,006 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:48,088 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Epic sadface: Password is required actual text: Epic sadface: Password is required
+2023-02-01 00:36:48,089 [8] INFO SwagLabs_Automation.CorePage - Login with empty password is successful
+2023-02-01 00:36:48,330 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:50,463 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:51,574 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:51,749 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:51,982 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:52,133 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:52,134 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:52,135 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:36:52,377 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:36:52,449 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:36:52,563 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:36:52,617 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:36:52,619 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:36:52,798 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_secondary
+2023-02-01 00:36:52,799 [8] INFO SwagLabs_Automation.CorePage - Product has been Removed.
+2023-02-01 00:36:52,933 [8] ERROR SwagLabs_Automation.CorePage - An error occurred while performing the click action on element: By.ClassName[Contains]: inventory_details_back_button
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".inventory_details_back_button"}
+  (Session info: chrome=109.0.5414.120)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SwagLabs_Automation.CorePage.Click(By locator) in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\CorePage\CorePage.cs:line 118
+2023-02-01 00:36:53,027 [8] ERROR SwagLabs_Automation.CorePage - Error closing product page: no such element: Unable to locate element: {"method":"css selector","selector":".inventory_details_back_button"}
+  (Session info: chrome=109.0.5414.120)
+2023-02-01 00:36:53,722 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:36:56,251 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:36:57,596 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:36:57,835 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:36:58,265 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:36:58,802 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:36:58,803 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:36:58,805 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:36:59,044 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:36:59,107 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:36:59,233 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: btn_inventory
+2023-02-01 00:36:59,293 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:36:59,295 [8] INFO SwagLabs_Automation.CorePage - Product has been Added.
+2023-02-01 00:36:59,410 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: shopping_cart_container
+2023-02-01 00:36:59,476 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: YOUR CART actual text: YOUR CART
+2023-02-01 00:36:59,477 [8] INFO SwagLabs_Automation.CorePage - CartPage has been Asserted.
+2023-02-01 00:36:59,742 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:37:02,503 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:37:03,721 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:37:04,001 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:37:04,307 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:37:04,783 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:37:04,785 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:37:04,790 [8] INFO SwagLabs_Automation.CorePage - Adding all products to cart
+2023-02-01 00:37:05,167 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:37:05,293 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-02-01 00:37:05,399 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-02-01 00:37:05,486 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-02-01 00:37:05,614 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-02-01 00:37:05,711 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-02-01 00:37:05,712 [8] INFO SwagLabs_Automation.CorePage - All the products have been added to cart
+2023-02-01 00:37:05,715 [8] INFO SwagLabs_Automation.CorePage - Removing all products from cart
+2023-02-01 00:37:05,755 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 6 actual text: 6
+2023-02-01 00:37:05,852 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 5 actual text: 5
+2023-02-01 00:37:05,947 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 4 actual text: 4
+2023-02-01 00:37:06,059 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 3 actual text: 3
+2023-02-01 00:37:06,171 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 2 actual text: 2
+2023-02-01 00:37:06,261 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: 1 actual text: 1
+2023-02-01 00:37:06,345 [8] INFO SwagLabs_Automation.CorePage - All the products have been removed from cart
+2023-02-01 00:37:06,951 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:37:09,229 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:37:10,290 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:37:10,523 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:37:10,794 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:37:11,011 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:37:11,014 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:37:11,612 [8] INFO SwagLabs_Automation.CorePage - Selected value: az from dropdown menu with locator: By.ClassName[Contains]: product_sort_container
+2023-02-01 00:37:11,673 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Sauce Labs Backpack actual text: Sauce Labs Backpack
+2023-02-01 00:37:11,673 [8] INFO SwagLabs_Automation.CorePage - Dropdown Selected
+2023-02-01 00:37:12,178 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:37:14,190 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:37:15,438 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:37:15,662 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:37:16,069 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:37:16,485 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:37:16,486 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:37:16,766 [8] INFO SwagLabs_Automation.CorePage - Selected value: za from dropdown menu with locator: By.ClassName[Contains]: product_sort_container
+2023-02-01 00:37:16,810 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Test.allTheThings() T-Shirt (Red) actual text: Test.allTheThings() T-Shirt (Red)
+2023-02-01 00:37:16,811 [8] INFO SwagLabs_Automation.CorePage - Dropdown Selected
+2023-02-01 00:37:17,330 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:37:19,401 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:37:20,698 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:37:20,899 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:37:21,225 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:37:21,610 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:37:21,611 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:37:21,997 [8] INFO SwagLabs_Automation.CorePage - Selected value: lohi from dropdown menu with locator: By.ClassName[Contains]: product_sort_container
+2023-02-01 00:37:22,075 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: $7.99 actual text: $7.99
+2023-02-01 00:37:22,076 [8] INFO SwagLabs_Automation.CorePage - Dropdown Selected
+2023-02-01 00:37:22,528 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:37:32,576 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:37:33,594 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:37:34,036 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:37:34,506 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:37:34,556 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:37:34,557 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:37:34,800 [8] INFO SwagLabs_Automation.CorePage - Selected value: hilo from dropdown menu with locator: By.ClassName[Contains]: product_sort_container
+2023-02-01 00:37:34,857 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: $49.99 actual text: $49.99
+2023-02-01 00:37:34,858 [8] INFO SwagLabs_Automation.CorePage - Dropdown Selected
+2023-02-01 00:37:35,607 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:37:39,721 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:37:40,478 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:37:40,605 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:37:40,839 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:37:41,279 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:37:41,284 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:37:41,302 [8] INFO SwagLabs_Automation.CorePage - Clicking on Twitter button and asserting its value
+2023-02-01 00:37:41,315 [8] INFO SwagLabs_Automation.CorePage - Clicking on the button
+2023-02-01 00:37:41,626 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: social_twitter
+2023-02-01 00:37:42,290 [8] INFO SwagLabs_Automation.CorePage - Waiting for new window to open
+2023-02-01 00:37:42,340 [8] INFO SwagLabs_Automation.CorePage - Asserting the value
+2023-02-01 00:37:47,675 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: @saucelabs actual text: @saucelabs
+2023-02-01 00:37:47,676 [8] INFO SwagLabs_Automation.CorePage - Closing the window and switching back to main window
+2023-02-01 00:37:47,913 [8] INFO SwagLabs_Automation.CorePage - Clicking on Facebook button and asserting its value
+2023-02-01 00:37:47,922 [8] INFO SwagLabs_Automation.CorePage - Clicking on the button
+2023-02-01 00:37:48,445 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: social_facebook
+2023-02-01 00:37:48,449 [8] INFO SwagLabs_Automation.CorePage - Waiting for new window to open
+2023-02-01 00:37:49,459 [8] INFO SwagLabs_Automation.CorePage - Asserting the value
+2023-02-01 00:37:52,776 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: Log in actual text: Log in
+2023-02-01 00:37:52,777 [8] INFO SwagLabs_Automation.CorePage - Closing the window and switching back to main window
+2023-02-01 00:37:54,003 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully
+2023-02-01 00:37:56,228 [8] INFO SwagLabs_Automation.CorePage - Chrome browser selected and initialized.
+2023-02-01 00:37:57,246 [8] INFO SwagLabs_Automation.CorePage - Writing value: standard_user in element: By.Id: user-name
+2023-02-01 00:37:57,463 [8] INFO SwagLabs_Automation.CorePage - Writing value: secret_sauce in element: By.Id: password
+2023-02-01 00:37:57,815 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.Id: login-button
+2023-02-01 00:37:58,025 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: PRODUCTS actual text: PRODUCTS
+2023-02-01 00:37:58,026 [8] INFO SwagLabs_Automation.CorePage - Login with valid details is successful
+2023-02-01 00:37:58,027 [8] INFO SwagLabs_Automation.CorePage - Adding a product to cart
+2023-02-01 00:37:58,230 [8] INFO SwagLabs_Automation.CorePage - Click action performed on element: By.ClassName[Contains]: inventory_item_name
+2023-02-01 00:37:58,382 [8] INFO SwagLabs_Automation.CorePage - Assertion performed, expected text: BACK TO PRODUCTS actual text: BACK TO PRODUCTS
+2023-02-01 00:37:58,835 [8] INFO SwagLabs_Automation.CorePage - Screenshot taken succussfully

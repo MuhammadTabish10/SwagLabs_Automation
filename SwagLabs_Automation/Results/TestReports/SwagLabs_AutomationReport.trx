@@ -1,53 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="84f3bbd3-404f-439c-bc84-a7ea9a2e59c2" name="muham@DESKTOP-VLT1FDS 2023-01-31 01:12:35" runUser="DESKTOP-VLT1FDS\muham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2023-01-31T01:12:35.8293560+05:00" queuing="2023-01-31T01:12:35.8293560+05:00" start="2023-01-31T01:12:34.0325886+05:00" finish="2023-01-31T01:12:59.0332822+05:00" />
-  <TestSettings name="default" id="c9d6c56a-8030-41a1-b95f-854cf87b96f6">
-    <Deployment runDeploymentRoot="muham_DESKTOP-VLT1FDS_2023-01-31_01_12_35" />
+<TestRun id="02eb1d6e-6679-489b-b3da-01651a137f8f" name="muham@DESKTOP-VLT1FDS 2023-02-01 00:35:49" runUser="DESKTOP-VLT1FDS\muham" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-02-01T00:35:49.9760330+05:00" queuing="2023-02-01T00:35:49.9760330+05:00" start="2023-02-01T00:35:36.3939269+05:00" finish="2023-02-01T00:37:59.5157546+05:00" />
+  <TestSettings name="default" id="adb4aeca-5251-4be1-a220-30ea1a76d8aa">
+    <Deployment runDeploymentRoot="muham_DESKTOP-VLT1FDS_2023-02-01_00_35_49" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="ce7863f4-4e0e-41bb-883d-17a6310c3358" testId="b94ba54e-ef2f-4fd7-94d6-331a50201bbf" testName="LoginWithEmptyPasswordTC_005 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.5296751" startTime="2023-01-31T01:12:49.4913612+05:00" endTime="2023-01-31T01:12:53.0271282+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce7863f4-4e0e-41bb-883d-17a6310c3358" />
-    <UnitTestResult executionId="dd824ab5-70f5-4833-8baf-85ce8ded402c" testId="7ade0a2e-f392-4a16-ad30-5b655d17112b" testName="TestMethod1" computerName="DESKTOP-VLT1FDS" duration="00:00:00.0015292" startTime="2023-01-31T01:12:35.8293560+05:00" endTime="2023-01-31T01:12:35.8293560+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd824ab5-70f5-4833-8baf-85ce8ded402c">
-      <Output>
-        <ErrorInfo>
-          <Message>Test method SwagLabs_Automation.CheckoutTestExecution.TestMethod1 threw exception: &#xD;
-System.NullReferenceException: Object reference not set to an instance of an object.</Message>
-          <StackTrace>    at SwagLabs_Automation.CheckoutTestExecution.TestMethod1() in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\SwagLabs\CheckoutPage\CheckoutTestExecution.cs:line 12&#xD;
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="75def064-c4e7-41f5-8845-a2aca6ee09b4" testId="1eee190c-c3a9-4b9a-b517-77f259d5585a" testName="LoginWithInvalidDetailsTC_002 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.2174926" startTime="2023-01-31T01:12:40.0942015+05:00" endTime="2023-01-31T01:12:43.3178380+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75def064-c4e7-41f5-8845-a2aca6ee09b4" />
-    <UnitTestResult executionId="64e08980-285b-484d-8b55-a6d4219f4674" testId="efa141a3-fdfa-4a2c-af37-b6a2f21da793" testName="LoginWithEmptyUsernameTC_004 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.1375099" startTime="2023-01-31T01:12:46.3565184+05:00" endTime="2023-01-31T01:12:49.4913612+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64e08980-285b-484d-8b55-a6d4219f4674" />
-    <UnitTestResult executionId="fcca7d4f-b499-40fb-85da-b04c9ca73485" testId="87680d6f-58bb-4a6d-9733-d26e5acfc836" testName="AddAndRemoveAllProductsToCartTC_001" computerName="DESKTOP-VLT1FDS" duration="00:00:05.6380063" startTime="2023-01-31T01:12:53.1521183+05:00" endTime="2023-01-31T01:12:58.7832957+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcca7d4f-b499-40fb-85da-b04c9ca73485" />
-    <UnitTestResult executionId="b5998054-5c4e-431b-ad07-30fd6050a985" testId="ca783419-3383-44ab-9ed0-72553d595722" testName="TestMethod1" computerName="DESKTOP-VLT1FDS" duration="00:00:00.3005420" startTime="2023-01-31T01:12:35.3137435+05:00" endTime="2023-01-31T01:12:35.7981081+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5998054-5c4e-431b-ad07-30fd6050a985">
-      <Output>
-        <ErrorInfo>
-          <Message>Test method SwagLabs_Automation.CartTestExecution.TestMethod1 threw exception: &#xD;
-System.NullReferenceException: Object reference not set to an instance of an object.</Message>
-          <StackTrace>    at SwagLabs_Automation.CartTestExecution.TestMethod1() in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\SwagLabs\CartPage\CartTestExecution.cs:line 12&#xD;
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="4bd9f060-1221-439f-be22-7a1c78a3f218" testId="0e99a238-9f23-4248-98ac-2070b91346f5" testName="LoginWithEmptyDetailsTC_003 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.0249901" startTime="2023-01-31T01:12:43.3178380+05:00" endTime="2023-01-31T01:12:46.3565184+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bd9f060-1221-439f-be22-7a1c78a3f218" />
-    <UnitTestResult executionId="e8329bff-23cf-4872-b4b9-dcf295072084" testId="4b2be7be-3271-4199-9492-60d05ffd71b8" testName="TestMethod1" computerName="DESKTOP-VLT1FDS" duration="00:00:00.1131474" startTime="2023-01-31T01:12:53.0271282+05:00" endTime="2023-01-31T01:12:53.1521183+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8329bff-23cf-4872-b4b9-dcf295072084">
-      <Output>
-        <ErrorInfo>
-          <Message>Test method SwagLabs_Automation.ProductDetailTestExecution.TestMethod1 threw exception: &#xD;
-OpenQA.Selenium.WebDriverException: invalid session id</Message>
-          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
-   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
-   at OpenQA.Selenium.WebDriver.set_Url(String value)&#xD;
-   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
-   at SwagLabs_Automation.ProductDetailTestExecution.TestMethod1() in C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\SwagLabs\ProductDetailPage\ProductDetailTestExecution.cs:line 12&#xD;
-</StackTrace>
-        </ErrorInfo>
-      </Output>
-    </UnitTestResult>
-    <UnitTestResult executionId="0b86315e-c811-4c3c-91ec-2608ca121f5a" testId="0a3d7c07-feae-4140-8406-22e702ccd99c" testName="LoginWithValidDetailsTC_001 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:04.1196807" startTime="2023-01-31T01:12:35.8293560+05:00" endTime="2023-01-31T01:12:40.0942015+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b86315e-c811-4c3c-91ec-2608ca121f5a" />
+    <UnitTestResult executionId="097e46be-0ac5-409a-9c6a-1873f0fbad8e" testId="0e02b801-69f6-4a31-9b35-ddf064606c34" testName="HighToLowPriceFilterTC_005 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:14.2970545" startTime="2023-02-01T00:37:23.0127575+05:00" endTime="2023-02-01T00:37:37.3220156+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="097e46be-0ac5-409a-9c6a-1873f0fbad8e" />
+    <UnitTestResult executionId="25c7dc3d-00f7-4275-8b1a-50bdf5234c10" testId="a933ef64-8f94-4d1d-b28c-b6de8941e52f" testName="LowToHighPriceFilterTC_004 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.3569058" startTime="2023-02-01T00:37:17.6444881+05:00" endTime="2023-02-01T00:37:23.0127575+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25c7dc3d-00f7-4275-8b1a-50bdf5234c10" />
+    <UnitTestResult executionId="d8a3e08a-1517-4ad1-9267-18e605d2976d" testId="d32d5b90-482d-494e-9582-f9487b545eda" testName="AddAndRemoveProductFromCartTC_001 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.5924612" startTime="2023-02-01T00:36:48.5840978+05:00" endTime="2023-02-01T00:36:54.1900340+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8a3e08a-1517-4ad1-9267-18e605d2976d" />
+    <UnitTestResult executionId="d18278f7-8b7d-43a8-9c9b-20fdfc6e25d3" testId="f0a765ee-5770-49f6-9676-e0d3f7928564" testName="LoginWithEmptyUsernameTC_004 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:04.6590209" startTime="2023-02-01T00:36:40.0466298+05:00" endTime="2023-02-01T00:36:44.7132527+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d18278f7-8b7d-43a8-9c9b-20fdfc6e25d3" />
+    <UnitTestResult executionId="746c5eea-448e-40cd-809d-68a128f52f49" testId="5895e6a1-90e3-4369-b878-9906b4534f54" testName="AToZFilterTC_002 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.2757423" startTime="2023-02-01T00:37:07.2169578+05:00" endTime="2023-02-01T00:37:12.5037564+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="746c5eea-448e-40cd-809d-68a128f52f49" />
+    <UnitTestResult executionId="3d25b853-2c94-4527-8c43-4b1c160987eb" testId="389d2b31-030f-4750-b495-1ffac664689b" testName="LoginWithValidDetailsTC_001 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.2756962" startTime="2023-02-01T00:36:26.8710131+05:00" endTime="2023-02-01T00:36:32.1606166+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d25b853-2c94-4527-8c43-4b1c160987eb" />
+    <UnitTestResult executionId="b17e7901-18d9-4faf-99b3-b3bf9b6ef86e" testId="89035813-4a6d-4e51-82d7-f783ee05868e" testName="FillWithEmptyFirstNameDetailsTC_003 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.8952035" startTime="2023-02-01T00:36:08.3776958+05:00" endTime="2023-02-01T00:36:14.2868745+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b17e7901-18d9-4faf-99b3-b3bf9b6ef86e" />
+    <UnitTestResult executionId="5cfb2b0d-f485-4293-9c62-589119525f94" testId="7fb973d3-f9a9-4ac9-9861-9ec1a7903338" testName="AddAndRemoveAllProductsToCartTC_001" computerName="DESKTOP-VLT1FDS" duration="00:00:07.0602555" startTime="2023-02-01T00:37:00.1535223+05:00" endTime="2023-02-01T00:37:07.2169578+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cfb2b0d-f485-4293-9c62-589119525f94" />
+    <UnitTestResult executionId="552da148-fd0a-4c6d-93b3-97ad0a95ecdb" testId="60550faf-56ae-46d7-906f-3ebe686d0235" testName="ZToAFilterTC_003 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.1329592" startTime="2023-02-01T00:37:12.5037564+05:00" endTime="2023-02-01T00:37:17.6444881+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="552da148-fd0a-4c6d-93b3-97ad0a95ecdb" />
+    <UnitTestResult executionId="d5d6bfcd-21ea-444f-869d-63b563ed83b9" testId="e61eb7ea-c62a-4815-b6a4-decaeaa73a6d" testName="OpenProductTC_007 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:04.8491594" startTime="2023-02-01T00:37:54.3250694+05:00" endTime="2023-02-01T00:37:59.1866059+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5d6bfcd-21ea-444f-869d-63b563ed83b9" />
+    <UnitTestResult executionId="79846346-f6f4-45df-adb0-ba8c3f6ee69b" testId="07920868-a0d0-41d8-af92-906a18e7ee72" testName="LoginWithEmptyDetailsTC_003 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.9449186" startTime="2023-02-01T00:36:36.0946537+05:00" endTime="2023-02-01T00:36:40.0466298+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79846346-f6f4-45df-adb0-ba8c3f6ee69b" />
+    <UnitTestResult executionId="a9001d76-dfbe-4146-808e-0dab147a56aa" testId="2477eca0-e19d-4309-a472-fdc492f8bbda" testName="ProceedToCheckoutTC_002 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.9874492" startTime="2023-02-01T00:35:49.9650398+05:00" endTime="2023-02-01T00:35:55.9610226+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9001d76-dfbe-4146-808e-0dab147a56aa" />
+    <UnitTestResult executionId="6105832e-7830-4bad-b9ef-a546c2e234b2" testId="04be3c4e-0087-4133-a332-2b24cb80bb34" testName="OpenCartTC_002 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.9558010" startTime="2023-02-01T00:36:54.1900340+05:00" endTime="2023-02-01T00:37:00.1535223+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6105832e-7830-4bad-b9ef-a546c2e234b2" />
+    <UnitTestResult executionId="10a41bc2-bf63-4f5f-b8bc-db306248e4fa" testId="ffe5acc0-fa44-473f-9682-b6a7a80f533e" testName="FillWithEmptyPostalCodeDetailsTC_005 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.9648199" startTime="2023-02-01T00:36:20.8967592+05:00" endTime="2023-02-01T00:36:26.8710131+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10a41bc2-bf63-4f5f-b8bc-db306248e4fa" />
+    <UnitTestResult executionId="b821b9cb-6841-4a3b-8905-91130ae7a5d8" testId="a81c82e0-6b3b-4b1c-9cc3-79dc976b29e6" testName="RemoveProductAndCheckContinueBtnTC_001 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:10.3181974" startTime="2023-02-01T00:35:37.9800553+05:00" endTime="2023-02-01T00:35:49.9110697+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b821b9cb-6841-4a3b-8905-91130ae7a5d8" />
+    <UnitTestResult executionId="bbf1284f-7c44-4b9e-b6ad-22c2d778165b" testId="8eb764e7-7d73-4a42-802b-64845212f9c8" testName="EnterEmptyDetailsTC_002 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:05.7455690" startTime="2023-02-01T00:36:02.6192689+05:00" endTime="2023-02-01T00:36:08.3776958+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbf1284f-7c44-4b9e-b6ad-22c2d778165b" />
+    <UnitTestResult executionId="49783e4a-3fce-4169-bd95-c6fc3b04f6ad" testId="8634cd86-2105-4de9-b901-ec01fffbfe6e" testName="EnterDetailsTC_001 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:06.6465204" startTime="2023-02-01T00:35:55.9610226+05:00" endTime="2023-02-01T00:36:02.6192689+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49783e4a-3fce-4169-bd95-c6fc3b04f6ad" />
+    <UnitTestResult executionId="f65b3c3d-80fb-4fd6-99e1-a05fae74c967" testId="e46e3587-b37f-457c-a2d1-bef5062654bb" testName="CheckSocialMediaLinksTC_006 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:16.9871674" startTime="2023-02-01T00:37:37.3230142+05:00" endTime="2023-02-01T00:37:54.3250694+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f65b3c3d-80fb-4fd6-99e1-a05fae74c967" />
+    <UnitTestResult executionId="3eba7eec-4ba5-4322-8861-8fc16c47d56c" testId="72d33514-4189-417d-bc42-16339a1dd32d" testName="FillWithEmptyLastNameDetailsTC_004 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:06.6030468" startTime="2023-02-01T00:36:14.2868745+05:00" endTime="2023-02-01T00:36:20.8967592+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3eba7eec-4ba5-4322-8861-8fc16c47d56c" />
+    <UnitTestResult executionId="bc8035d3-e3d4-476b-a2bb-c239afde519c" testId="72d3a1e8-88db-41c2-bbf7-63a3b4f5cdbe" testName="LoginWithEmptyPasswordTC_005 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.8592516" startTime="2023-02-01T00:36:44.7132527+05:00" endTime="2023-02-01T00:36:48.5840978+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc8035d3-e3d4-476b-a2bb-c239afde519c" />
+    <UnitTestResult executionId="8926c2ef-8fd2-469f-926d-3a787118c3af" testId="088534e9-abeb-449c-a0f1-6ba3473848b3" testName="LoginWithInvalidDetailsTC_002 (Data Row 0)" computerName="DESKTOP-VLT1FDS" duration="00:00:03.9271638" startTime="2023-02-01T00:36:32.1606166+05:00" endTime="2023-02-01T00:36:36.0946537+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8926c2ef-8fd2-469f-926d-3a787118c3af" />
   </Results>
   <TestDefinitions>
-    <UnitTest name="LoginWithInvalidDetailsTC_002 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="1eee190c-c3a9-4b9a-b517-77f259d5585a">
+    <UnitTest name="LoginWithEmptyPasswordTC_005 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="72d3a1e8-88db-41c2-bbf7-63a3b4f5cdbe">
       <Owners>
         <Owner name="Tabish" />
       </Owners>
@@ -55,32 +36,10 @@ OpenQA.Selenium.WebDriverException: invalid session id</Message>
         <TestCategoryItem TestCategory="Login" />
         <TestCategoryItem TestCategory="Negative" />
       </TestCategory>
-      <Execution id="75def064-c4e7-41f5-8845-a2aca6ee09b4" />
-      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithInvalidDetailsTC_002" />
-    </UnitTest>
-    <UnitTest name="LoginWithEmptyPasswordTC_005 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="b94ba54e-ef2f-4fd7-94d6-331a50201bbf">
-      <Owners>
-        <Owner name="Tabish" />
-      </Owners>
-      <TestCategory>
-        <TestCategoryItem TestCategory="Login" />
-        <TestCategoryItem TestCategory="Negative" />
-      </TestCategory>
-      <Execution id="ce7863f4-4e0e-41bb-883d-17a6310c3358" />
+      <Execution id="bc8035d3-e3d4-476b-a2bb-c239afde519c" />
       <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithEmptyPasswordTC_005" />
     </UnitTest>
-    <UnitTest name="LoginWithEmptyUsernameTC_004 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="efa141a3-fdfa-4a2c-af37-b6a2f21da793">
-      <Owners>
-        <Owner name="Tabish" />
-      </Owners>
-      <TestCategory>
-        <TestCategoryItem TestCategory="Login" />
-        <TestCategoryItem TestCategory="Negative" />
-      </TestCategory>
-      <Execution id="64e08980-285b-484d-8b55-a6d4219f4674" />
-      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithEmptyUsernameTC_004" />
-    </UnitTest>
-    <UnitTest name="AddAndRemoveAllProductsToCartTC_001" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="87680d6f-58bb-4a6d-9733-d26e5acfc836">
+    <UnitTest name="AToZFilterTC_002 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="5895e6a1-90e3-4369-b878-9906b4534f54">
       <Owners>
         <Owner name="Tabish" />
       </Owners>
@@ -88,14 +47,98 @@ OpenQA.Selenium.WebDriverException: invalid session id</Message>
         <TestCategoryItem TestCategory="Product" />
         <TestCategoryItem TestCategory="Positive" />
       </TestCategory>
-      <Execution id="fcca7d4f-b499-40fb-85da-b04c9ca73485" />
+      <Execution id="746c5eea-448e-40cd-809d-68a128f52f49" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductTestExecution" name="AToZFilterTC_002" />
+    </UnitTest>
+    <UnitTest name="FillWithEmptyLastNameDetailsTC_004 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="72d33514-4189-417d-bc42-16339a1dd32d">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Checkout" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="3eba7eec-4ba5-4322-8861-8fc16c47d56c" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CheckoutTestExecution" name="FillWithEmptyLastNameDetailsTC_004" />
+    </UnitTest>
+    <UnitTest name="RemoveProductAndCheckContinueBtnTC_001 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="a81c82e0-6b3b-4b1c-9cc3-79dc976b29e6">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Cart" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="b821b9cb-6841-4a3b-8905-91130ae7a5d8" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CartTestExecution" name="RemoveProductAndCheckContinueBtnTC_001" />
+    </UnitTest>
+    <UnitTest name="FillWithEmptyFirstNameDetailsTC_003 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="89035813-4a6d-4e51-82d7-f783ee05868e">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Checkout" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="b17e7901-18d9-4faf-99b3-b3bf9b6ef86e" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CheckoutTestExecution" name="FillWithEmptyFirstNameDetailsTC_003" />
+    </UnitTest>
+    <UnitTest name="AddAndRemoveAllProductsToCartTC_001" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="7fb973d3-f9a9-4ac9-9861-9ec1a7903338">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Product" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="5cfb2b0d-f485-4293-9c62-589119525f94" />
       <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductTestExecution" name="AddAndRemoveAllProductsToCartTC_001" />
     </UnitTest>
-    <UnitTest name="TestMethod1" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="7ade0a2e-f392-4a16-ad30-5b655d17112b">
-      <Execution id="dd824ab5-70f5-4833-8baf-85ce8ded402c" />
-      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CheckoutTestExecution" name="TestMethod1" />
+    <UnitTest name="CheckSocialMediaLinksTC_006 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="e46e3587-b37f-457c-a2d1-bef5062654bb">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Product" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="f65b3c3d-80fb-4fd6-99e1-a05fae74c967" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductTestExecution" name="CheckSocialMediaLinksTC_006" />
     </UnitTest>
-    <UnitTest name="LoginWithEmptyDetailsTC_003 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="0e99a238-9f23-4248-98ac-2070b91346f5">
+    <UnitTest name="HighToLowPriceFilterTC_005 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="0e02b801-69f6-4a31-9b35-ddf064606c34">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Product" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="097e46be-0ac5-409a-9c6a-1873f0fbad8e" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductTestExecution" name="HighToLowPriceFilterTC_005" />
+    </UnitTest>
+    <UnitTest name="AddAndRemoveProductFromCartTC_001 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="d32d5b90-482d-494e-9582-f9487b545eda">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="ProductDetail" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="d8a3e08a-1517-4ad1-9267-18e605d2976d" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductDetailTestExecution" name="AddAndRemoveProductFromCartTC_001" />
+    </UnitTest>
+    <UnitTest name="OpenCartTC_002 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="04be3c4e-0087-4133-a332-2b24cb80bb34">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="ProductDetail" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="6105832e-7830-4bad-b9ef-a546c2e234b2" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductDetailTestExecution" name="OpenCartTC_002" />
+    </UnitTest>
+    <UnitTest name="LoginWithInvalidDetailsTC_002 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="088534e9-abeb-449c-a0f1-6ba3473848b3">
       <Owners>
         <Owner name="Tabish" />
       </Owners>
@@ -103,18 +146,98 @@ OpenQA.Selenium.WebDriverException: invalid session id</Message>
         <TestCategoryItem TestCategory="Login" />
         <TestCategoryItem TestCategory="Negative" />
       </TestCategory>
-      <Execution id="4bd9f060-1221-439f-be22-7a1c78a3f218" />
+      <Execution id="8926c2ef-8fd2-469f-926d-3a787118c3af" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithInvalidDetailsTC_002" />
+    </UnitTest>
+    <UnitTest name="FillWithEmptyPostalCodeDetailsTC_005 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="ffe5acc0-fa44-473f-9682-b6a7a80f533e">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Checkout" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="10a41bc2-bf63-4f5f-b8bc-db306248e4fa" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CheckoutTestExecution" name="FillWithEmptyPostalCodeDetailsTC_005" />
+    </UnitTest>
+    <UnitTest name="LowToHighPriceFilterTC_004 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="a933ef64-8f94-4d1d-b28c-b6de8941e52f">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Product" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="25c7dc3d-00f7-4275-8b1a-50bdf5234c10" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductTestExecution" name="LowToHighPriceFilterTC_004" />
+    </UnitTest>
+    <UnitTest name="ZToAFilterTC_003 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="60550faf-56ae-46d7-906f-3ebe686d0235">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Product" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="552da148-fd0a-4c6d-93b3-97ad0a95ecdb" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductTestExecution" name="ZToAFilterTC_003" />
+    </UnitTest>
+    <UnitTest name="LoginWithEmptyDetailsTC_003 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="07920868-a0d0-41d8-af92-906a18e7ee72">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Login" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="79846346-f6f4-45df-adb0-ba8c3f6ee69b" />
       <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithEmptyDetailsTC_003" />
     </UnitTest>
-    <UnitTest name="TestMethod1" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="ca783419-3383-44ab-9ed0-72553d595722">
-      <Execution id="b5998054-5c4e-431b-ad07-30fd6050a985" />
-      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CartTestExecution" name="TestMethod1" />
+    <UnitTest name="LoginWithEmptyUsernameTC_004 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="f0a765ee-5770-49f6-9676-e0d3f7928564">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Login" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="d18278f7-8b7d-43a8-9c9b-20fdfc6e25d3" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithEmptyUsernameTC_004" />
     </UnitTest>
-    <UnitTest name="TestMethod1" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="4b2be7be-3271-4199-9492-60d05ffd71b8">
-      <Execution id="e8329bff-23cf-4872-b4b9-dcf295072084" />
-      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductDetailTestExecution" name="TestMethod1" />
+    <UnitTest name="ProceedToCheckoutTC_002 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="2477eca0-e19d-4309-a472-fdc492f8bbda">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Cart" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="a9001d76-dfbe-4146-808e-0dab147a56aa" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CartTestExecution" name="ProceedToCheckoutTC_002" />
     </UnitTest>
-    <UnitTest name="LoginWithValidDetailsTC_001 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="0a3d7c07-feae-4140-8406-22e702ccd99c">
+    <UnitTest name="OpenProductTC_007 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="e61eb7ea-c62a-4815-b6a4-decaeaa73a6d">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Product" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="d5d6bfcd-21ea-444f-869d-63b563ed83b9" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.ProductTestExecution" name="OpenProductTC_007" />
+    </UnitTest>
+    <UnitTest name="EnterEmptyDetailsTC_002 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="8eb764e7-7d73-4a42-802b-64845212f9c8">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Checkout" />
+        <TestCategoryItem TestCategory="Negative" />
+      </TestCategory>
+      <Execution id="bbf1284f-7c44-4b9e-b6ad-22c2d778165b" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CheckoutTestExecution" name="EnterEmptyDetailsTC_002" />
+    </UnitTest>
+    <UnitTest name="LoginWithValidDetailsTC_001 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="389d2b31-030f-4750-b495-1ffac664689b">
       <Owners>
         <Owner name="Tabish" />
       </Owners>
@@ -122,26 +245,49 @@ OpenQA.Selenium.WebDriverException: invalid session id</Message>
         <TestCategoryItem TestCategory="Login" />
         <TestCategoryItem TestCategory="Positive" />
       </TestCategory>
-      <Execution id="0b86315e-c811-4c3c-91ec-2608ca121f5a" />
+      <Execution id="3d25b853-2c94-4527-8c43-4b1c160987eb" />
       <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.LoginTestExecution" name="LoginWithValidDetailsTC_001" />
+    </UnitTest>
+    <UnitTest name="EnterDetailsTC_001 (Data Row 0)" storage="c:\users\muham\source\repos\swaglabs_automation\swaglabs_automation\bin\debug\swaglabs_automation.dll" id="8634cd86-2105-4de9-b901-ec01fffbfe6e">
+      <Owners>
+        <Owner name="Tabish" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Checkout" />
+        <TestCategoryItem TestCategory="Positive" />
+      </TestCategory>
+      <Execution id="49783e4a-3fce-4169-bd95-c6fc3b04f6ad" />
+      <TestMethod codeBase="C:\Users\muham\source\repos\SwagLabs_Automation\SwagLabs_Automation\bin\Debug\SwagLabs_Automation.dll" adapterTypeName="executor://mstestadapter/v2" className="SwagLabs_Automation.CheckoutTestExecution" name="EnterDetailsTC_001" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="b94ba54e-ef2f-4fd7-94d6-331a50201bbf" executionId="ce7863f4-4e0e-41bb-883d-17a6310c3358" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="7ade0a2e-f392-4a16-ad30-5b655d17112b" executionId="dd824ab5-70f5-4833-8baf-85ce8ded402c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="1eee190c-c3a9-4b9a-b517-77f259d5585a" executionId="75def064-c4e7-41f5-8845-a2aca6ee09b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="efa141a3-fdfa-4a2c-af37-b6a2f21da793" executionId="64e08980-285b-484d-8b55-a6d4219f4674" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="87680d6f-58bb-4a6d-9733-d26e5acfc836" executionId="fcca7d4f-b499-40fb-85da-b04c9ca73485" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="ca783419-3383-44ab-9ed0-72553d595722" executionId="b5998054-5c4e-431b-ad07-30fd6050a985" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="0e99a238-9f23-4248-98ac-2070b91346f5" executionId="4bd9f060-1221-439f-be22-7a1c78a3f218" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="4b2be7be-3271-4199-9492-60d05ffd71b8" executionId="e8329bff-23cf-4872-b4b9-dcf295072084" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="0a3d7c07-feae-4140-8406-22e702ccd99c" executionId="0b86315e-c811-4c3c-91ec-2608ca121f5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e02b801-69f6-4a31-9b35-ddf064606c34" executionId="097e46be-0ac5-409a-9c6a-1873f0fbad8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a933ef64-8f94-4d1d-b28c-b6de8941e52f" executionId="25c7dc3d-00f7-4275-8b1a-50bdf5234c10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d32d5b90-482d-494e-9582-f9487b545eda" executionId="d8a3e08a-1517-4ad1-9267-18e605d2976d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0a765ee-5770-49f6-9676-e0d3f7928564" executionId="d18278f7-8b7d-43a8-9c9b-20fdfc6e25d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5895e6a1-90e3-4369-b878-9906b4534f54" executionId="746c5eea-448e-40cd-809d-68a128f52f49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="389d2b31-030f-4750-b495-1ffac664689b" executionId="3d25b853-2c94-4527-8c43-4b1c160987eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89035813-4a6d-4e51-82d7-f783ee05868e" executionId="b17e7901-18d9-4faf-99b3-b3bf9b6ef86e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7fb973d3-f9a9-4ac9-9861-9ec1a7903338" executionId="5cfb2b0d-f485-4293-9c62-589119525f94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60550faf-56ae-46d7-906f-3ebe686d0235" executionId="552da148-fd0a-4c6d-93b3-97ad0a95ecdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e61eb7ea-c62a-4815-b6a4-decaeaa73a6d" executionId="d5d6bfcd-21ea-444f-869d-63b563ed83b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07920868-a0d0-41d8-af92-906a18e7ee72" executionId="79846346-f6f4-45df-adb0-ba8c3f6ee69b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2477eca0-e19d-4309-a472-fdc492f8bbda" executionId="a9001d76-dfbe-4146-808e-0dab147a56aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04be3c4e-0087-4133-a332-2b24cb80bb34" executionId="6105832e-7830-4bad-b9ef-a546c2e234b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffe5acc0-fa44-473f-9682-b6a7a80f533e" executionId="10a41bc2-bf63-4f5f-b8bc-db306248e4fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a81c82e0-6b3b-4b1c-9cc3-79dc976b29e6" executionId="b821b9cb-6841-4a3b-8905-91130ae7a5d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8eb764e7-7d73-4a42-802b-64845212f9c8" executionId="bbf1284f-7c44-4b9e-b6ad-22c2d778165b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8634cd86-2105-4de9-b901-ec01fffbfe6e" executionId="49783e4a-3fce-4169-bd95-c6fc3b04f6ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e46e3587-b37f-457c-a2d1-bef5062654bb" executionId="f65b3c3d-80fb-4fd6-99e1-a05fae74c967" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72d33514-4189-417d-bc42-16339a1dd32d" executionId="3eba7eec-4ba5-4322-8861-8fc16c47d56c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72d3a1e8-88db-41c2-bbf7-63a3b4f5cdbe" executionId="bc8035d3-e3d4-476b-a2bb-c239afde519c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="088534e9-abeb-449c-a0f1-6ba3473848b3" executionId="8926c2ef-8fd2-469f-926d-3a787118c3af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
-  <ResultSummary outcome="Failed">
-    <Counters total="9" executed="9" passed="6" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  <ResultSummary outcome="Completed">
+    <Counters total="21" executed="21" passed="21" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
 </TestRun>
