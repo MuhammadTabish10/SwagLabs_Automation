@@ -24,6 +24,27 @@
 	</LoginTestExecution>
 
 	<ProductTestExecution>
+		<AToZFilterTC_002>
+			<productName>Sauce Labs Backpack</productName>
+			<value>az</value>
+		</AToZFilterTC_002>
+		<ZToAFilterTC_003>
+			<productName>Test.allTheThings() T-Shirt (Red)</productName>
+			<value>za</value>
+		</ZToAFilterTC_003>
+		<LowToHighPriceFilterTC_004>
+			<productPrice>$7.99</productPrice>
+			<value>lohi</value>
+		</LowToHighPriceFilterTC_004>
+		<HighToLowPriceFilterTC_005>
+			<productPrice>$49.99</productPrice>
+			<value>hilo</value>
+		</HighToLowPriceFilterTC_005>
+		<CheckSocialMediaLinksTC_006>
+			<twitterValue>@saucelabs</twitterValue>
+			<facebookValue>Log in</facebookValue>
+			<linkedinValue></linkedinValue>
+		</CheckSocialMediaLinksTC_006>
 	</ProductTestExecution>
 
 	<ProductDetailTestExecution>
