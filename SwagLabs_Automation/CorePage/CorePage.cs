@@ -17,7 +17,6 @@ namespace SwagLabs_Automation
         public static readonly ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public static IWebDriver SeleniumInit(string browser)
         {
-            // sbshxbshxcs
             try
             {
                 switch (browser)
